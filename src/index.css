@@ -9,15 +9,17 @@ body {
 
 *{
   box-sizing: border-box;
+  margin:0;
+  padding:0;
+  transition: 0.1s ease;
 }
 
+/* All Styling in One File Only */
 
 
 .App{
   --background-main-color: rgb(196, 196, 196);
-
-
-  width: 30rem;
+  width: 23rem;
   background-color: var(--background-main-color);
   margin:auto;
   position: relative;
@@ -25,21 +27,29 @@ body {
   height: 40rem;
   border-radius: 10px;
   padding:1rem;
+  box-shadow: 10px 10px 10px black,inset 10px 10px 50px black;
 }
+
+
+/* Screen Related Styling */
 
 .Screen{
-  height: 50%;
+  height: 55%;
   border:0.1rem black solid;
   border-radius: 10px;
-  background-color: white;
+  /* background-image: linear-gradient(red,green); */
+  margin-bottom: 1rem;
+  overflow: hidden;
 }
 
+/* Touch Pad Related Styling */
+
 .TouchPad{
-  height: 50%;
-  border: 0.1rem white solid;
+  height: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .touch-element{
@@ -50,6 +60,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color:white;
+  position: relative;
+  font-size: 2rem;
+}
+
+.touch-element i:nth-child(1){
+  position: absolute;
+  top:1.5rem;
+}
+.touch-element i:nth-child(2){
+  position: absolute;
+  right:1.5rem
+}
+.touch-element i:nth-child(3){
+  position: absolute;
+  left:1.5rem
+}
+.touch-element i:nth-child(4){
+  position: absolute;
+  bottom:1.5rem
+}
+
+
+
+.touch-element:hover{
+  background-color: #333;
 }
 
 .center-button{
@@ -57,8 +93,96 @@ body {
   width: 100px;
   background-color: blanchedalmond;
   border-radius: 50%;
+  position: absolute;
 }
+
 
 .center-button:hover{
   background-color: white;
+}
+
+
+/* Menu Screen Styling */
+.Menu{
+  height: 100%;
+  padding:1rem;
+  
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-right: 0.01rem black solid;
+  background-image: linear-gradient(#f3f3f3,white);
+}
+
+
+/* Indicidual Item */
+.MenuItem{
+  padding:0.3rem;
+  height: 2rem;
+}
+
+
+/* The Component for displaying application selected page */
+.CommonApplication{
+  padding:1rem;
+  background-color: black;
+  height: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+
+
+/* Music Component Specific styling */
+.Music{
+  background-color: #f3f3f3;
+  border-radius: 2px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #333;
+}
+
+
+
+.Music .timeline{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Music img{
+  height: 150px;
+  width: 150px;
+  border-radius: 2px;
+  box-shadow: 10px 10px 10px black;
+}
+
+/* Music player styling */
+
+
+audio::-webkit-media-controls-enclosure {
+    background-color: var(--music-player-bg);
+    border-radius: 0;
+    /* border: 0.1rem black solid; */
+    
+}
+
+
+/* Common App Style */
+.Common{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.Common p{
+  font-size: 2rem;
+}
+.Common i{
+  font-size: 4rem;
 }
