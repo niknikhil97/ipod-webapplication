@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ipod-webapplication/static/css/main.5654f6bd.chunk.css",
+    "main.js": "/ipod-webapplication/static/js/main.a00c039e.chunk.js",
+    "main.js.map": "/ipod-webapplication/static/js/main.a00c039e.chunk.js.map",
+    "runtime-main.js": "/ipod-webapplication/static/js/runtime-main.3bda7748.js",
+    "runtime-main.js.map": "/ipod-webapplication/static/js/runtime-main.3bda7748.js.map",
+    "static/js/2.b0b5ae12.chunk.js": "/ipod-webapplication/static/js/2.b0b5ae12.chunk.js",
+    "static/js/2.b0b5ae12.chunk.js.map": "/ipod-webapplication/static/js/2.b0b5ae12.chunk.js.map",
+    "index.html": "/ipod-webapplication/index.html",
+    "static/css/main.5654f6bd.chunk.css.map": "/ipod-webapplication/static/css/main.5654f6bd.chunk.css.map",
+    "static/js/2.b0b5ae12.chunk.js.LICENSE.txt": "/ipod-webapplication/static/js/2.b0b5ae12.chunk.js.LICENSE.txt",
+    "static/media/backgroundImage.8c81f39a.gif": "/ipod-webapplication/static/media/backgroundImage.8c81f39a.gif",
+    "static/media/starboy.54372525.jfif": "/ipod-webapplication/static/media/starboy.54372525.jfif",
+    "static/media/starboy.90da2354.mp3": "/ipod-webapplication/static/media/starboy.90da2354.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bda7748.js",
+    "static/js/2.b0b5ae12.chunk.js",
+    "static/css/main.5654f6bd.chunk.css",
+    "static/js/main.a00c039e.chunk.js"
+  ]
+}
